@@ -1,0 +1,154 @@
+body {
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #444343;
+}
+/* sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: aliceblue;
+}
+.white-section {
+  background-color: white;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 15% 15%;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Nav bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+}
+
+/* buttons */
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.image-title {
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* features */
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.testimonial-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+.features-container {
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* testimonial */
+
+#testimonials {
+  background-color: #ef8172;
+  color: aliceblue;
+}
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+.card-spacing {
+  padding: 1rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-btn {
+  margin-top: auto;
+}
+
+@media (max-width: 1140px) {
+  .image-title {
+    position: static;
+    transform: rotate(0);
+  }
+}
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+}
+
+#footer {
+  padding: 2% 15%;
+}
+
+.footer-icon {
+  padding: 5px;
+  font-size: 1.2 rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
